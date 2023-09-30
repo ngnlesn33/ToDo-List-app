@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>To-Do list app</title>
+    <!--  Google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!--  Reset CSS  -->
+    <link rel="stylesheet" href="assets/reset.css" />
+    <!--  Style CSS  -->
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="todo-list">
+        <div class="title">
+          <h2 class="title-text">To-Do List</h2>
+          <img class="note-icon" src="assets/imgs/icon.png" alt="note-icon" />
+        </div>
+        <div class="row">
+          <input type="text" id="input-box" placeholder="Add your task" />
+          <button class="button" id="btn" onclick="addTask()">Add</button>
+        </div>
+        <ul id="list-container">
+          <!--          <li class="checked">Task 1</li>-->
+          <!--          <li>Task 2</li>-->
+          <!--          <li>Task 3</li>-->
+        </ul>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
